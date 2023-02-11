@@ -1,0 +1,9 @@
+.headline {
+    color:rgb(103, 14, 188);
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+.headline#lattes {
+    background-color:blanchedalmond;
+}
