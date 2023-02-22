@@ -1,9 +1,96 @@
-.headline {
-    color:rgb(103, 14, 188);
-    font-family: Arial, sans-serif;
-    background-color: grey;
+html {
+    box-sizing: border-box;
 }
 
-.headline#lattes {
-    background-color:blanchedalmond;
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 105px;
+    height: 35px;
+    font-size: 13px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+  }
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+}
+
+.container-1 div {
+    flex: 1;
+}
+
+.container-1 .headermenu {
+    display: flex;
+    justify-content: right;
+    margin-right: 25px;
+  }
+
+.mlogo {
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.list1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(133, 133, 133);
+    display: flex;
+    height: 120px;
+    justify-content:left;
+    gap: 21px;
+    text-align: center;
+    list-style: none;
+  }
+
+* {
+    border: 0px solid red
 }
